@@ -1,4 +1,4 @@
-# McKinsey Consultant V4.0 - OpenClaw 技能安装指南
+# McKinsey Consultant  - OpenClaw 技能安装指南
 
 ## 已完成的工作
 
@@ -11,13 +11,13 @@
 - **元数据格式**: 更新了SKILL.md的YAML头部，符合OpenClaw标准
 
 ### 2. 文件结构优化
-- 创建了新的技能目录：`/home/mckinsey-consultant-v4/`
+- 创建了新的技能目录：`/home/mckinsey-consultant/`
 - 更新了SKILL.md文件，符合OpenClaw技能规范
 - 更新了README.md文件，提供清晰的安装和使用说明
 - 保留了所有原始参考文件和示例代码
 
 ### 3. 生成的安装包
-- **完整包**: `mckinsey-consultant-v4.0.0-full.tar.gz` (61.8KB)
+- **完整包**: `mckinsey-consultant-full.tar.gz` (61.8KB)
 - **包含**: 所有技能文件、参考文档、示例代码
 
 ## 安装步骤
@@ -25,7 +25,7 @@
 ### 方法1: 直接使用目录
 ```bash
 # 将技能目录复制到OpenClaw技能目录
-cp -r /home/mckinsey-consultant-v4 /path/to/openclaw/skills/
+cp -r /home/mckinsey-consultant /path/to/openclaw/skills/
 
 # 确保python-pptx已安装
 pip install python-pptx
@@ -34,7 +34,7 @@ pip install python-pptx
 ### 方法2: 使用压缩包
 ```bash
 # 解压到OpenClaw技能目录
-tar -xzf /home/mckinsey-consultant-v4.0.0-full.tar.gz -C /path/to/openclaw/skills/
+tar -xzf /home/mckinsey-consultant-full.tar.gz -C /path/to/openclaw/skills/
 
 # 确保python-pptx已安装
 pip install python-pptx
@@ -92,7 +92,7 @@ pip install python-pptx
 ## 文件清单
 
 ```
-mckinsey-consultant-v4/
+mckinsey-consultant/
 ├── SKILL.md              # 主技能文件（已优化）
 ├── README.md             # 说明文档（已更新）
 ├── LICENSE              # MIT许可证
