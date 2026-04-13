@@ -120,7 +120,7 @@ mckinsey-consultant-v4/
 
 ## 感谢
 
-[MIT](https://github.com/fleurytian)
+@[fleurytian](https://github.com/fleurytian)
 
 ## 许可证
 
