@@ -1,10 +1,45 @@
-# McKinsey Consultant V4.0 - OpenClaw 技能
+# McKinsey Consultant for OpenClaw skill
+
+*McKinsey顾问式商业问题解决系统*
 
 麦肯锡风格商业问题解决系统，集成了mckinsey-ppt-v4迭代精修方法论。
 
 ## 简介
 
 将麦肯锡Problem Solving 101/102方法论系统化为8步工作流，实现从商业问题到麦肯锡风格PPT的端到端解决方案。V4.0集成了mckinsey-ppt-v4 PPT生成和迭代优化能力。
+
+## 💡 开发者说
+
+**✅ 核心优势**
+
+1. **遵循咨询公司真实工作流**
+   - Hypothesis-driven approach: 先提假设,再验证
+   - Dummy-first: 先设计页面框架,再找数据填充
+   - 符合McKinsey方法论的完整工作思路
+
+2. **输出质量高**
+   - Hypothesis结构MECE,逻辑严密
+   - 页面样式丰富,支持多种McKinsey经典布局
+   - 每个页面都有对应的数据来源和参考文献记录
+
+3. **可追溯性强**
+   - 自动记录每个论点的数据源
+   - 便于审查和验证
+   - 支持多次迭代优化
+
+**⚠️ 局限性说明**
+
+受限于当前模型能力,存在以下技术限制:
+
+1. **上下文窗口限制**
+   - 复杂项目容易超出上下文长度
+   - 需要分段生成PPT (通过多次对话完成)
+   - **解决方案**: 设计了Dummy Pages独立导出功能,可在新对话中复用
+
+2. **假设验证机制待完善**
+   - 当Hypothesis被证伪时,整个storyline可能不够solid
+   - 目前缺少自动推翻storyline并重构的机制
+   - **建议做法**: 人工review后重新调整hypothesis tree
 
 ## 核心能力
 
