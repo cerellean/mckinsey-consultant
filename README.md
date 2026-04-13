@@ -118,6 +118,10 @@ mckinsey-consultant-v4/
 2. 确保已安装Python-pptx: `pip install python-pptx`
 3. 技能已准备就绪
 
+## 感谢
+
+[MIT](https://github.com/fleurytian)
+
 ## 许可证
 
 MIT
